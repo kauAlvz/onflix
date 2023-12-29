@@ -28,7 +28,7 @@ button{
 }
 
 header{
-    border-bottom: 1px solid #cecece;
+    border-bottom: 2px solid #2b3758;
 }
 nav{
     display: flex;
@@ -51,9 +51,14 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 }
 .links ul li a{
     padding: 7px 0;
+}
+.pesquisar{
+    font-size: 25px;
+    cursor: pointer;
 }
 .menu-btn{
     padding: 5px;
@@ -96,7 +101,7 @@ nav{
     padding: 15px 30px;
     border: 3px solid var(--prim);
     font-size: 20px;
-    color: var(--prim);
+    color: #fff;
     font-weight: 600;
     border-radius: 10px;
     margin-top: 10px;
@@ -105,6 +110,7 @@ nav{
 .ver-agora:hover{
     background: var(--prim);
     color: #fff;
+    opacity: 0.85;
 }
 .categorias{
     display: flex;
@@ -125,4 +131,21 @@ nav{
 }
 .categorias button:hover{
     opacity: 0.8;    
+}
+.filmes-sec h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.filmes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.filmes .card{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    background: url(../imgs/filmes/1.jpg) center;
+    background-size: cover;
 }
