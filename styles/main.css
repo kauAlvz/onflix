@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
-
+:root{
+    --prim: #367fee;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #06090F;
+    background-color: #090f1b;
     color: #fff;
 }
 p{
@@ -33,7 +35,7 @@ nav{
     font-size: 25px;
 }
 .blue{
-    color: #2b73df;
+    color: var(--prim);
 }
 .links{
     font-size: 20px;
@@ -57,3 +59,31 @@ nav{
     background-color: #fff;
     margin: 5px;
 }
+.banner-sec{
+    background: url(../imgs/banner.jpg) no-repeat center left;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    align-items: end;
+    justify-content: baseline;
+}
+.container-ban{
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.container-ban h3{
+    font-size: 40px;
+}
+.container-ban .sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.container-ban .sobre .duracao{
+    padding: 5px;
+    background-color: var(--prim);
+    border-radius: 5px;
+}
+
