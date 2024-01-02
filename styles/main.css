@@ -128,6 +128,7 @@ nav{
     font-size: 20px;
     color: #fff;
     transition: 0.3s;
+    cursor: pointer;
 }
 .categorias button:hover{
     opacity: 0.8;    
@@ -143,9 +144,104 @@ nav{
     justify-items: center;
 }
 .filmes .card{
-    height: 200px;
-    width: 150px;
+    height: 250px;
+    width: 170px;
+    margin-top: 30px;
     border-radius: 10px;
-    background: url(../imgs/filmes/1.jpg) center;
     background-size: cover;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.filmes .card:hover{
+    transform: scale(1.1);
+}
+#f1{
+    background: url(../imgs/filmes/1.jpg) top center;
+}
+#f2{
+    background: url(../imgs/filmes/2.webp) center bottom;
+}
+#f3{
+    background: url(../imgs/filmes/3.webp) center top;
+}
+#f4{
+    background: url(../imgs/filmes/4.jpg) center;
+}
+#f5{
+    background: url(../imgs/filmes/5.jpg) center bottom;
+}
+#f6{
+    background: url(../imgs/filmes/6.jpg) center bottom;
+}
+#f7{
+    background: url(../imgs/filmes/7.jpg) center top;
+}
+#f8{
+    background: url(../imgs/filmes/8.jpg) center bottom;
+}
+#f9{
+    background: url(../imgs/filmes/9.webp) center bottom;
+}
+#f10{
+    background: url(../imgs/filmes/10.jpg) center top;
+}
+#f11{
+    background: url(../imgs/filmes/11.jpg) center bottom;
+}
+#f12{
+    background: url(../imgs/filmes/12.jpg) center top;
+}
+#f13{
+    background: url(../imgs/filmes/13.webp) center top;
+}
+#f14{
+    background: url(../imgs/filmes/14.webp) center bottom;
+}
+#f15{
+    background: url(../imgs/filmes/15.jpg) center top;
+}
+#f16{
+    background: url(../imgs/filmes/16.jpg) center bottom;
+}
+#f17{
+    background: url(../imgs/filmes/17.webp) center top;
+}
+#f18{
+    background: url(../imgs/filmes/18.jpg) center top;
+}
+#f19{
+    background: url(../imgs/filmes/19.webp) center bottom;
+}
+#f20{
+    background: url(../imgs/filmes/20.jpg) center bottom;
+}
+#f21{
+    background: url(../imgs/filmes/21.jpg) center bottom;
+}
+#f22{
+    background: url(../imgs/filmes/22.jpg) center bottom;
+}
+#f23{
+    background: url(../imgs/filmes/23.jpg) center top;
+}
+#f24{
+    background: url(../imgs/filmes/24.webp) center top;
+}
+#f25{
+    background: url(../imgs/filmes/25.jpg) center bottom;
+}
+#f26{
+    background: url(../imgs/filmes/26.webp) center top;
+}
+#f27{
+    background: url(../imgs/filmes/27.jpg) center bottom;
+}
+#f28{
+    background: url(../imgs/filmes/28.jpg) center top;
+}
+#f29{
+    background: url(../imgs/filmes/29.webp) center bottom;
+}
+#f30{
+    background: url(../imgs/filmes/30.webp) center top;
 }
