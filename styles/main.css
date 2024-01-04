@@ -113,6 +113,7 @@ nav{
     border-radius: 10px;
     margin-top: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 .ver-agora:hover{
     background: var(--prim);
@@ -161,4 +162,45 @@ nav{
 }
 .filmes .card:hover{
     transform: scale(1.1);
+}
+
+footer{
+    background-color: #171e30;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.servicos, .companhia, .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicos h3, .companhia h3, .redes h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.servicos ul li, .companhia ul li, .redes ul li{
+    color: #d3d3d3;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 7px;
+    padding: 5px 0;
+}
+.servicos ul li:hover, .companhia ul li:hover, .redes ul li:hover{
+    text-decoration: underline;
+}
+.redes ul li{
+    font-size: 25px;
+    margin-bottom: 10px;
 }
