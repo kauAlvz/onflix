@@ -163,7 +163,34 @@ nav{
 .filmes .card:hover{
     transform: scale(1.1);
 }
-
+.qualidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 50px 0;
+}
+.card-qual{
+    background-color: #161e31;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-qual .titulo1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #888b97;
+}
+.card-qual .titulo2{
+    font-size: 50px;
+}
+.card-qual .desc{
+    margin-top: 20px;
+    font-size: 19px;
+}
 footer{
     background-color: #171e30;
     margin-top: 40px;
