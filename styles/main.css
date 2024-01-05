@@ -126,7 +126,7 @@ nav{
     align-items: center;
     gap: 20px;
     padding: 0 50px;
-    margin: 50px 0;
+    margin: 100px 0;
     flex-wrap: wrap;
 }
 .categorias button{
@@ -167,7 +167,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    margin: 50px 0;
+    margin: 150px 0;
 }
 .card-qual{
     background-color: #161e31;
@@ -190,6 +190,42 @@ nav{
 .card-qual .desc{
     margin-top: 20px;
     font-size: 19px;
+}
+.captura label{
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'rubik', sans-serif;
+}
+.captura #email{
+    padding: 10px;
+    background-color: #090f1b;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+.captura #enviar{
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2b3758;
+    color: #fff;
+    font-family: 'rubik', sans-serif;
+    font-size: 17px;
+    transition: 0.3s;
+}
+#enviar:hover{
+    background-color: #252f4b;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0 150px; 
 }
 footer{
     background-color: #171e30;
