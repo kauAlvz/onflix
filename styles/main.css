@@ -200,15 +200,15 @@ nav{
 .captura #email{
     padding: 10px;
     background-color: #090f1b;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
     font-size: 17px;
-    border-radius: 5px;
+    border-radius: 6px;
 
 }
 .captura #enviar{
-    padding: 14px 20px;
-    border-radius: 5px;
+    padding: 14px 25px;
+    border-radius: 6px;
     border: none;
     background-color: #2b3758;
     color: #fff;
@@ -266,4 +266,67 @@ footer h2{
 .redes ul li{
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 940px) {
+    .filmes{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .qualidades{
+        grid-template-columns: 1fr;
+    }
+    .card-qual{
+        margin: 20px 0;
+        width: 300px;
+    }
+}
+@media (max-width: 620px) {
+    .filmes{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .servicos, .companhia, .redes{
+        margin-bottom: 30px;
+    }
+    .categorias button{
+        font-size: 16px;
+    }
+    .banner-sec{
+        height: 100vh;
+    }
+    .categorias{
+        gap: 10px;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 375px) {
+    .banner-sec{
+        align-items: center;
+        justify-content: center;
+    }
+    .container-ban{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-ban h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .filmes{
+        grid-template-columns: 1fr;
+    }
+    .card-qual{
+        width: 250px;
+    }
+    #enviar{
+        padding: 14px 20px;
+    }
+    #email{
+        width: 150px;
+    }
 }
