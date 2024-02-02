@@ -281,6 +281,9 @@ footer h2{
     }
 }
 @media (max-width: 620px) {
+    .container-ban h3{
+        font-size: 35px;
+    }
     .filmes{
         grid-template-columns: 1fr 1fr;
     }
@@ -302,6 +305,9 @@ footer h2{
     }
 }
 @media (max-width: 375px) {
+    h1{
+        font-size: 30px;
+    }
     .banner-sec{
         align-items: center;
         justify-content: center;
